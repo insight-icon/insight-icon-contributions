@@ -1,14 +1,14 @@
 ﻿# Insight-ICON Monthly Progress Report 
 
-Hello ICON Blockchain!  Insight Data Science here to give the first of the monthly status updates for our P-Rep Election campaign for ICON.  As many of you know, there is an election underway to find 22 qualified teams to for the decentralization network for the ICON Blockchain.  While we at Insight are mainly focused on tech, we are executing a broad strategy to grow the ICON ecosystem as a whole.  Here are some of the highlights. 
+Hello ICON Blockchain!  Insight Data Science here to give the first of the monthly status updates for our P-Rep Election campaign for ICON.  As many of you know, there is an election underway to find 22 qualified teams to decentralize the validation network for the ICON Blockchain.  While we at Insight are mainly focused on tech, we are executing a broad strategy to grow the ICON ecosystem as a whole.  Here are some of the highlights. 
 
 - Outreach Campaign 
-    - Published [6] ICON focussed Medium articles 
+    - Published 5 ICON focused Medium articles 
     - Hosting weekly infrastructure calls 
     - Planning ICON events 
 - Fellow Program + Staffing  
     - Allocated 3 DevOps fellows to ICON Infrastructure Projects  
-    - [Hired fulltime DevOps engineer to build infrastructure]
+    - Hired fulltime DevOps engineer to build infrastructure
 - Technical 
     - Built one-click solution for deploying P-Rep and Citizen nodes 
     - Managing roughly 10k lines of infrastructure as code over 25 repositories 
@@ -28,20 +28,20 @@ Writing code, while core to our mission with ICON, is only part of how we are gr
 
 ### Weekly Infrastructure Calls + YouTube Channel 
 
-The community faces a common infrastructure challenge so Insight has began hosting weekly calls to coordinate efforts.  
-
-taken the reigns in bringing the everyone together twice a week for infrastructure calls.  
-
+The community faces a common infrastructure challenge so Insight has began hosting weekly calls to coordinate efforts.  Each week we have recorded the meeting and [posted on YouTube](https://www.youtube.com/channel/UCMPrlANYbIrpfgtQZQ0w7kw?view_as=subscriber) along with a meeting summary that you can find on [Reddit](https://www.reddit.com/user/insight-icon) and our [blog](https://blog.insight-icon.net/blog/html/index.html).  We've been happy to collaborate with such teams as [iBriz](http://ibriz.ai/) and begin planning of docs with [Pocket / Figment](https://p-rep.community/pocket-figment/) and begin discussions with several other teams. 
 
 ### Events 
 
-- [Rhizome Offline]()
+#### [Rhizome Offline](https://www.youtube.com/channel/UCTrh0D9A2KhEQ9DinSqakWQ)
+On Friday, October 4th we were happy to have Rhizome's Brian Li interview us at our SF location where talked about our value add to ICON along with a high level overview of the tech we are working on right now.  Brian is editing the video as we speak and will send an update as soon as it is ready. 
 
+#### [SF Blockchain Week]()
 
+Insight is excited to host an open infrastructure party during SF Blockchain week on [Wednesday October 30th]() with workshops and interactive festivities at our [SF location](https://www.google.com/maps/place/500+3rd+St,+San+Francisco,+CA+94107/@37.7808204,-122.397855,17z/data=!3m1!4b1!4m5!3m4!1s0x80858078ccf4d77f:0xea8dde66a1b86f2!8m2!3d37.7808162!4d-122.3956663).  Stay tuned to our [twitter]() and [reddit]() to hear more details. 
 
 ## Fellows 
 
-The greatest asset that Insight brings to the ICON ecosystem is our large fellow program that over 1000 highly skilled computer scientists and engineers will complete this year.  Prior to the last cohort of fellows starting, [a number of projects]() were proposed to the Silicon Valley DevOps fellows focusing on infrastructure related projects. Three fellows were then recruited and have been working for the past month on a [one-click deployment]() of ICON infrastructure.  Here is a brief overview of their work. 
+The greatest asset that Insight brings to the ICON ecosystem is our large fellow program that over 1000 highly skilled computer scientists and engineers will complete this year.  Prior to the last cohort of fellows starting, [a number of projects](https://docs.insight-icon.net/teams/insight/insight-icon-project-seeds/index-project-seeds.html) were proposed to the Silicon Valley DevOps fellows focusing on infrastructure related projects. Three fellows were then recruited and have been working for the past month on a [one-click deployment]() of ICON infrastructure.  Here is a brief overview of their work. 
 
 ### Security and Configuration Automation - [Soe San](https://www.linkedin.com/in/soe-san-win/)
 
@@ -59,22 +59,21 @@ Our fellows have done an amazing job with their projects so far.  Next month we'
 
 ### Full-time Hire - [Rob Cannon](https://www.linkedin.com/in/rob-cannon-21571317/)
 
-Insight is excited to announce they have hired me, Rob Cannon, as an infrastructure architect & developer in residence.  In this role, I will be integrating the work from our fellow program into a unified reference architecture and package it up for distribution to the community.  Super excited to join the team and devote my time to ICON projects. 
+Insight is excited to announce they have hired me, Rob Cannon, as an infrastructure architect & developer in residence.  In this role, I am 100% focused on ICON where I will be integrating the work from our fellow program into a unified reference architecture and package it up for distribution to the community.  Super excited to join the team and devote my time to ICON projects. 
 
 ## Technical 
 
-The main value Insight brings to the ICON ecosystem is contributing high quality code where the pure volume of contributions speaks for itself.  Our work focuses on automating the deployment of the necessary infrastructure to run both P-Reps and Citizen nodes which will evolve into a broader DApps focussed suite of reference architectures.  We hope that with our work, application developers can go from ideation to production with minimal effort on setting up the required infrastructure. Here are some of the categories of tooling we are building. 
+The main value Insight brings to the ICON ecosystem is contributing high quality code where the pure volume of contributions speaks for itself.   Our work is currently focused on automating the deployment of the necessary infrastructure to run both P-Reps and Citizen nodes in production and orchestrated testing environments.  This work, while key to running secure P-Rep nodes, will lay the foundation for our other core strengths of post-attack forensics (i.e. double signing protection) and DApp reference architectures.
 
-### One-Click Deployments 
+Here is a brief highlight of some of our work or check it out at [github.com/insight-infrastructure](github.com/insight-infrastructure).
+- 10k lines of Infrastructure as code
+- 25 IaC repositories automated using tools such as Terraform, Ansible, and Packer 
+- 3 supported network topologies for different levels of node operation 
 
-In order to distribute our deployments to others, we build so called, "one-click" deployments which really translate to single scripts that deploy the whole infrastructure.  These scripts fire off modular sets of infrastructure as code that we can easily reconfigure to support a variety of network topologies. We have the first one 
+### One-Click Deployments
 
-### Modular Reference Architectures 
+In order to distribute our deployments to others, we build so called, "one-click" deployments which really translate to single scripts that deploy the whole infrastructure.  These scripts fire off modular sets of infrastructure as code that we can easily reconfigure to support a variety of network topologies. Check out first alpha out at [this link](). It uses Terraform and Ansible to deploy a P-Rep and Citizen node.  We're making some big changes this month and should be promoting it more in a couple weeks as we do a large code integration.  
 
+## Summary 
 
-
-
-
-## Upcoming 
-
-- 
+That wraps up our monthly update.  Stay tuned for next month's update that will focus on how we integrated the work from our fellows into a unified architecture where we will give more details on the specific features that our deployment offers and guides on how to run it.  We are hoping to on-board several teams with our architecture over the coming month.
