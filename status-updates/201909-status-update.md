@@ -1,6 +1,6 @@
 ﻿# Insight-ICON Monthly Progress Report 
 
-Hello ICON Blockchain!  Insight Data Science here to give the first of the monthly status updates for our P-Rep Election campaign for ICON.  As many of you know, there is an election underway to find 22 qualified teams to decentralize the validation network for the ICON Blockchain.  While we at Insight are mainly focused on tech, we are executing a broad strategy to grow the ICON ecosystem as a whole.  Here are some of the highlights. 
+Hello ICON Blockchain!  Insight-ICON here to give the first of the monthly status updates for our P-Rep Election campaign for ICON.  As many of you know, there is an election underway to find 22 qualified teams to decentralize the validation network for the ICON Blockchain.  While we at Insight are mainly focused on tech, we are executing a broad strategy to grow the ICON ecosystem as a whole.  Here are some of the highlights. 
 
 - Outreach Campaign 
     - Published 5 ICON focused Medium articles 
@@ -59,7 +59,7 @@ Our fellows have done an amazing job with their projects so far.  Next month we'
 
 ### Full-time Hire - [Rob Cannon](https://www.linkedin.com/in/rob-cannon-21571317/)
 
-Insight is excited to announce they have hired me, Rob Cannon, as an infrastructure architect & developer in residence.  In this role, I am 100% focused on ICON where I will be integrating the work from our fellow program into a unified reference architecture and package it up for distribution to the community.  Super excited to join the team and devote my time to ICON projects. 
+Insight is excited to announce they have hired Rob Cannon (me), as an Infrastructure Architect & Developer in Residence.  I will continue to focus on engineering and operating our P-Rep node, hosting weekly infrastructure calls, and working closely with the Fellows to mentor their projects and integrate their ICON tools and imprevements into unified reference architecture. I'm super excited to join the team and devote my time to ICON projects. 
 
 ## Technical 
 
